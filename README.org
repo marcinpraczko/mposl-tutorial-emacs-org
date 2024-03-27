@@ -46,9 +46,3 @@ This tutorial is designed to allow you to do simple steps on daily basics to imp
 
 - Folders:
   - =practice= - This folder is having files designed to allow you practice context from tutorial
-
-* Generating README.txt
-
-=README.txt= is generated from =README.org= with following commands in emacs:
-
-- =C-c C-e= - then =t a= (Export to simple text file)
