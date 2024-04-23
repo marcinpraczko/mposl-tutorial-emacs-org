@@ -33,9 +33,9 @@ Welcome to =MPOSL= personal Emacs Org tutorial!
 In this tutorial, we'll explore the fundamentals of Emacs Org mode, a powerful tool for organizing your life and work.
 Let's dive in and discover how Org mode can streamline your workflow and boost your productivity!
 
-* Resources which cam help
+* Resources which can help
 
-=Emacs Org= requires some knowledge and experienese to work with =Emacs=. Following is a list which can help learn some basics.
+=Emacs Org= requires some knowledge and experienese to work with =Emacs=. Following resources can help to learn some basics.
 Reading following resources is not mandatory, this tutorial will cover basic =Emacs= functionallities to work with =Org-mode=.
 
 ** Emacs resources
