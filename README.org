@@ -43,18 +43,42 @@ Reading following resources is not mandatory, this tutorial will cover basic =Em
 - [[https://emacsdocs.org/][Emacs docs - general]]
 - [[https://emacsdocs.org/docs/emacs/The-Emacs-Editor][The Emacs Editor]]
 
-
-
 * General details
 
-This tutorial is designed to allow you to do simple steps on daily basics to improve your knowledge and experience in =Emacs-ORG=.
+This tutorial is designed to allow you to do simple steps on daily basics to improve your knowledge and experience in
+=Emacs-ORG=.
 
 ** Details about files and directories
 
-- Files:
-  - =README.org= - this document - exported to =README.txt=
-  - =emacs-tutorial.org= - Main tutorial
-  - =.emacs-mposl-tutorial.el= - Custom emacs configuration - designed to allow work with this tutorial
+*** Files
 
-- Folders:
-  - =practice= - This folder is having files designed to allow you practice context from tutorial
+| File                 | Info          |
+|----------------------+---------------|
+| =README.org=         | this document |
+| =emacs-tutorial.org= | Main tutorial |
+
+*** Files - Custom configuration
+
+Following custom configurtations has been created in this repository:
+
+| File                       | Info                                                                  |
+|----------------------------+-----------------------------------------------------------------------|
+| =.dir-locals.el=           | Load custom configuration from this repo (requires approval in emacs) |
+| =.emacs-mposl-tutorial.el= | Custom configuration for this project (all settings are there)        |
+
+**Why this repo is having a custom local configuration for Emacs and Org mode?**
+
+- *Work safely:* Your local configuration affects only your current project, not your entire Emacs setup. It's like
+  having a separate set of rules just for this project.
+
+- *Easy recovery:* If your configuration causes problems, you can quickly restore it from your project's Git
+  repository. It's like having a backup plan ready to go.
+
+- *Setup custom snippets:* You can easily add your own shortcuts and tools tailored to your needs, making it easier to
+  follow along with this tutorial and speeding up your work.
+
+
+*** TODO Folders
+
+  - [ ] Design and create all requires folders
+  - [ ] =practice= - This folder is having files designed to allow you practice context from tutorial
